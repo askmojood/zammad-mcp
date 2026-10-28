@@ -1,0 +1,7 @@
+.env
+docker/.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+docker/backdate.json

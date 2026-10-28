@@ -1,0 +1,11 @@
+# Local-demo changes to Zammad's own compose file (docker/compose.yml, zammad-docker-compose v17.5.4, unchanged):
+# the web port on 127.0.0.1:8090 only, no backup container, and no Elasticsearch (Zammad then searches its own
+# database, plenty for a demo desk).
+services:
+  zammad-nginx:
+    ports: !override
+      - "127.0.0.1:8090:8080"
+  zammad-backup:
+    profiles: ["never"]
+  zammad-elasticsearch:
+    profiles: ["never"]
