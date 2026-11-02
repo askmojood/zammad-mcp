@@ -1,5 +1,5 @@
 [project]
-name = "zammad-mcp"
+name = "mojood-zammad-mcp"
 version = "0.1.0"
 description = "Mojood Connect demo: an MCP server for Zammad (helpdesk), with confirm-before-change writes."
 readme = "README.md"
@@ -11,8 +11,13 @@ dependencies = [
   "uvicorn>=0.54",
 ]
 
+[project.urls]
+Repository = "https://github.com/askmojood/zammad-mcp"
+Homepage = "https://mojood.app/connect"
+
 [project.scripts]
 zammad-mcp = "zammad_mcp.server:main"
+mojood-zammad-mcp = "zammad_mcp.server:main"
 zammad-seed = "zammad_mcp.seed:main"
 
 [dependency-groups]

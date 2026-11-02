@@ -1,5 +1,7 @@
 # Zammad MCP server
 
+<!-- mcp-name: io.github.askmojood/zammad-mcp -->
+
 Ask Claude about your support desk in plain words: what's open for a customer, what needs attention, what a
 ticket says. Assign tickets and add internal notes from the same chat, with a confirmation step before anything
 changes. There is no tool that writes to a customer.
