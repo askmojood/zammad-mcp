@@ -2,6 +2,8 @@
 
 <!-- mcp-name: io.github.askmojood/zammad-mcp -->
 
+[![Zammad (Mojood Connect) MCP server](https://mcprush.com/badge/zammad-mojood-connect-mcp/card.svg)](https://mcprush.com/to/zammad-mojood-connect-mcp?ref=badge)
+
 Ask Claude about your support desk in plain words: what's open for a customer, what needs attention, what a
 ticket says. Assign tickets and add internal notes from the same chat, with a confirmation step before anything
 changes. There is no tool that writes to a customer.
